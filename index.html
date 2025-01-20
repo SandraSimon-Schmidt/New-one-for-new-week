@@ -5,5 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+<body>
+    <form id="formular">
+        <fieldset>
+            <label for="vorname">Vorname:<input id="vorname" type="text" required></label>
+            <label for="nachname">Nachname:<input id="nachname" type="text" required></label>
+            <label for="alter">Alter:<input id="alter" type="number" min="18" max="99" placeholder="Bitte Alter einegeben" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Für was willst du es benutzen</legend>
+            <label for="lernen"><input id="lernen" type="radio" name="zweck" class="inline"> Zum lernen</label>
+            <label for="arbeit"><input id="arbeit" type="radio" name="zweck" class="inline"> Zum arbeiten</label>
+            <label for="hobby"><input id="hobby" type="radio" name="zweck" class="inline"> Einfach nur als hobby</label>
+        </fieldset>
+        <fieldset>
+            <label for="grund"> Erläutere den Grund genauer:
+                <textarea id="grund" name="grund" rows="4" cols="30" placeholder="Ich will es benutzen für..."></textarea>
+            </label>
+        </fieldset>
+        <div>
+            <button type="submit" class="submit-btton"> Absenden</button>
+        </div>
+    </form>
+</body>
 </html>
