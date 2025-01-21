@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    <header class="header1">
+    <header class="header1" class="centrierung">
     <div class="section">
        <nav>
     <p>Our website in numbers</p>
@@ -32,7 +32,7 @@
       <h1>ITS OUR WEBSITE</h1>
       </div>
     </header>
-<body>
+<body class="centrierung">
     <form id="formular">
         <fieldset>
             <label for="vorname">Vorname:<input id="vorname" type="text" required></label>
@@ -55,7 +55,7 @@
         </div>
     </form>
 </body>
-        <footer class="foot">
+        <footer class="foot" class="centrierung">
     <ul>
       <li><a href="facebook.com">About us</a></li>
       <li><a href="instagram.com">Contact</a></li>
@@ -67,12 +67,15 @@
     <p class="footer-text">Copyright since 2024</p>
   </footer>
     <style>
-        .header1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .header1{            
             background-color:powderblue; 
      color:black;}
+     .centrierung {
+      display: flex;
+      flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+     }
         .foot {background-color:powderblue;}
         .footer-text {color: red;}
     
