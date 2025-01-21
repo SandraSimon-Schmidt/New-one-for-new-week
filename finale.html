@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
+</head>
 
-  <div class="Hauptcontainer">
+<div class="Hauptcontainer">
     <header class="header1" class="centrierung">
-      <div class="section">
-        <nav>
-          <p>Our website in numbers</p>
-          <table>
-            <tr>
-              <th>Viewers</th>
-              <th>Creators</th>
-              <th>Budget</th>
-            </tr>
-            <tr>
-              <td>this week</td>
-              <td>from beginning</td>
-              <td>this year</td>
-            </tr>
-            <tr>
-              <td>5432</td>
-              <td>3</td>
-              <td>1.356.234$</td>
-            </tr>
-          </table>
-        </nav>
-      </div>
-      <div class="down">
-        <h1>ITS OUR WEBSITE</h1>
-      </div>
+        <div class="section">
+            <nav>
+                <p>Our website in numbers</p>
+                <table>
+                    <tr>
+                        <th>Viewers</th>
+                        <th>Creators</th>
+                        <th>Budget</th>
+                    </tr>
+                    <tr>
+                        <td>this week</td>
+                        <td>from beginning</td>
+                        <td>this year</td>
+                    </tr>
+                    <tr>
+                        <td>5432</td>
+                        <td>3</td>
+                        <td>1.356.234$</td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+        <div class="down">
+            <h1>ITS OUR WEBSITE</h1>
+        </div>
     </header>
+
     <body class="centrierung">
-      <form id="formular">
-        <fieldset>
-          <label for="vorname"
-            >Vorname:<input id="vorname" type="text" required
+        <form id="formular">
+            <fieldset>
+                <label for="vorname">Vorname:<input id="vorname" type="text" required
           /></label>
-          <label for="nachname"
-            >Nachname:<input id="nachname" type="text" required
+                <label for="nachname">Nachname:<input id="nachname" type="text" required
           /></label>
-          <label for="alter"
-            >Alter:<input
+                <label for="alter">Alter:<input
               id="alter"
               type="number"
               min="18"
@@ -52,11 +51,10 @@
               placeholder="Bitte Alter einegeben"
               required
           /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Für was willst du es benutzen</legend>
-          <label for="lernen"
-            ><input id="lernen" type="radio" name="zweck" class="inline" /> Zum
+            </fieldset>
+            <fieldset>
+                <legend>Für was willst du es benutzen</legend>
+                <label for="lernen"><input id="lernen" type="radio" name="zweck" class="inline" /> Zum
             lernen</label
           >
           <label for="arbeit"
@@ -79,68 +77,126 @@
               placeholder="Ich will es benutzen für..."
             ></textarea>
           </label>
-        </fieldset>
-        <div>
-          <button type="submit" class="submit-btton">Absenden</button>
-        </div>
-      </form>
+            </fieldset>
+            <div>
+                <button type="submit" class="submit-btton">Absenden</button>
+            </div>
+        </form>
     </body>
     <footer class="foot" class="centrierung">
-      <p class="footer-text">Folgt uns auf :</p>
-      <a href="facebook.com">Facebook</a>
-      <a href="instagram.com">Instagram</a>
-      <a href="github.com">Github</a>
+        <p class="footer-text">Folgt uns auf :</p>
+        <a href="facebook.com">Facebook</a>
+        <a href="instagram.com">Instagram</a>
+        <a href="github.com">Github</a>
 
-      <div class="footeranimation">
-        <p class="Bauchtext">ByeBye (ich werde noch eine Animation)</p>
-      </div>
+        <div class="footeranimation">
+            <p class="Bauchtext">ByeBye (ich werde noch eine Animation)</p>
+        </div>
     </footer>
-  </div>
-  <style>
+</div>
+<style>
     .header1 {
-      width: 100%;
-      background-color: powderblue;
-      color: black;
+        width: 100%;
+        background-color: powderblue;
+        color: black;
     }
+    
     .Hauptcontainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    
     .centrierung {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    
     .foot {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: center;
-
-      width: 100%;
-      background-color: powderblue;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+        background-color: powderblue;
     }
+    
     .footer-text {
-      color: red;
-      font-weight: bold;
+        color: red;
+        font-weight: bold;
     }
+    
     .footeranimation {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 2px solid green;
-      border-radius: 50%;
-      background-color: aquamarine;
-      width: 200px;
-      height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+        border-radius: 50%;
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
     }
+    
     .Bauchtext {
-      color: brown;
-      text-align: center;
-      justify-content: center;
+        color: brown;
+        text-align: center;
+        justify-content: center;
     }
-  </style>
+    
+    body {
+        width: 100%
+    }
+    
+    form {
+        width: 600px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid black;
+    }
+    
+    fieldset {
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 10px 30px;
+    }
+    
+    input {
+        width: 100%;
+        height: 20px;
+        margin-top: 1px;
+    }
+    
+    label,
+    textarea {
+        display: block;
+    }
+    
+    label {
+        margin-bottom: 5px;
+    }
+    
+    .inline {
+        display: inline;
+    }
+    
+    .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+    }
+    
+    button {
+        font-size: 0.9rem;
+        display: block;
+        margin: 10px auto;
+        width: 45%;
+        height: 2.5em;
+    }
+</style>
+
 </html>
